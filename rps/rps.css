@@ -1,0 +1,102 @@
+body {
+    background-image: linear-gradient(
+        to right,
+        rgb(85, 191, 240),
+        rgb(82, 221, 198)
+    );
+
+}
+
+.container {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 293px;
+    height: 79px;
+    left: 574px;
+    top: 845px;
+
+    background: #FE00B7;
+    border: 4px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.container:hover {
+    background: #880964
+}
+
+.container h1 {
+    position: absolute;
+    width: 204px;
+    left: 43px;
+
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+    
+}
+
+.Rochambeau{
+    position: absolute;
+    width: 920px;
+    height: 160px;
+    left: 260px;
+    top: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 155px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.game{
+    position: absolute;
+    width: 800px;
+    height: 160px;
+    left: 320px;
+    top: 220px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.rock{
+    position: absolute;
+    width: 390px;
+    height: 480px;
+    left: 0px;
+    top: 312px;
+}
+
+.paper{
+    position: absolute;
+    width: 450px;
+    height: 480px;
+    left: 462px;
+    top: 312px;
+}
+
+.scissors{
+    position: absolute;
+    width: 480px;
+    height: 390px;
+    left: 960px;
+    top: 357px;
+}
+
+.rock:hover, .paper:hover, .scissors:hover {
+    filter: drop-shadow(0 0 0 white)
+}
